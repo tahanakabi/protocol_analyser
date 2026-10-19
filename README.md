@@ -1,7 +1,5 @@
 # Clinical Protocol Analyser
 
-**Documentation:** [MkDocs site](docs/index.md) — run `pip install -r docs/requirements-docs.txt && mkdocs serve -a 127.0.0.1:8001` for the full architecture write-up and design justifications.
-
 Upload clinical study protocol PDFs and extract structured information with OpenAI: objectives, endpoints, Schedule of Activities (including sparse X-grid tables), eligibility criteria, visits, assessments, and safety monitoring rules.
 
 Extractions are stored on disk and run **once per file** (deduplicated by SHA-256).
