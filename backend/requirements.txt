@@ -1,0 +1,11 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+pydantic==2.14.1
+pydantic-settings==2.6.1
+openai==2.54.0
+pymupdf==1.28.2
+# 0.11.10 needs Pillow>=12, which conflicts with marker-pdf in requirements-handlers.txt.
+pdfplumber==0.11.9
+portalocker==3.0.0
+numpy==2.5.2

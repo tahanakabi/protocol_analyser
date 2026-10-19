@@ -1,0 +1,9 @@
+# Optional PDF parsers selectable in the UI. PyMuPDF and pdfplumber come from requirements.txt.
+# marker-pdf needs PyTorch; for CPU install it first:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+# Model weights download on first use into backend/.models/.
+pymupdf4llm==1.28.2
+unstructured[pdf]==0.18.32
+marker-pdf==2.0.0
+# marker-pdf needs Pillow<11 (this is also why unstructured's hi_res strategy is not offered).
+pillow==10.4.0
