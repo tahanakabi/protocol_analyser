@@ -71,7 +71,7 @@ MAX_BLOCK_TEXT_CHARS=800
 ## Evidence validation
 
 1. **Parse** — `pdf_source.py` builds a block index (`p{page}_b{n}`) with coordinates.
-2. **Extract** — the LLM returns `source_block_ids` + `evidence_quotes` for each field (see `extraction.md`).
+2. **Extract** — the LLM returns `source_block_ids` + `evidence_quotes` for each field.
 3. **Validate** — `validate.py` checks IDs exist and quotes appear in block text (structural verification).
 4. **Review** — the UI shows `verified` / `review` badges; click a quote to open the PDF viewer with highlights.
 
